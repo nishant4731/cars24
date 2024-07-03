@@ -1,0 +1,10 @@
+.block-preview {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+  }
