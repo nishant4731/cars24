@@ -1,4 +1,3 @@
-// src/components/Swimlane.js
 import React from 'react';
 import PropTypes from 'prop-types';
 import Block from './Block';

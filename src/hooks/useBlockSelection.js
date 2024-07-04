@@ -1,4 +1,3 @@
-// src/hooks/useBlockSelection.js
 import { useState } from 'react';
 
 const useBlockSelection = () => {

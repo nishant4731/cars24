@@ -1,4 +1,3 @@
-// src/hooks/useDragAndDrop.js
 import { useState } from 'react';
 
 const useDragAndDrop = (transitionRules, setBlocks) => {

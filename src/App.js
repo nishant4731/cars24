@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import Swimlane from './components/Swimlane';
 import Modal from './components/Modal';
