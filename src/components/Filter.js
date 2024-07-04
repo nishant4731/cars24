@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './styles/Filter.css';
 
 const Filter = ({ filterState, onFilterStateChange }) => (
-  <div className="filters">
+  <div className="filter">
     <select value={filterState} onChange={onFilterStateChange}>
       <option value="All">All States</option>
       <option value="State 1">State 1</option>

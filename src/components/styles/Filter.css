@@ -1,9 +1,23 @@
+/* src/components/styles/Filter.css */
 .filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
   }
   
-  .filter input {
-    padding: 5px;
-    width: 200px;
+  .filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .filter select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
   }
   
